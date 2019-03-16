@@ -31,6 +31,7 @@ export function BookListItem({
             <a rel="noreferrer noopener" target="_blank" href={link}>
               View Book!
             </a>
+            <p>Authors: {authors}</p>
           </Col>
         </Row>
       </Container>
